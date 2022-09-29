@@ -1,0 +1,52 @@
+.text {
+    background-color: darkgrey;
+    margin-left: 550px;
+    margin-top: -110px;
+}
+
+.a {
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: bisque;
+    width: 550px;
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.b {
+    background-color: aqua;
+    height: 100%;
+    min-width: 250px;
+    border: 1px solid green;
+}
+
+footer {
+    background-color: limegreen;
+    position: absolute;
+    bottom: 0;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+}
+
+img {
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 800px) {
+    .text {
+        margin-top: -112px;
+        margin-left: 200px;
+        width: 400px;
+    }
+    .a {
+        width: 200px;
+    }
+    img {
+        height: 150px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+}
+
+.green {
+    color: white;
+    background-color: green;
+	margin: auto;
+	width: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+    margin: auto;
+    width: 500px;
+    border: 20px solid blue;
+    padding: 20px;
+}

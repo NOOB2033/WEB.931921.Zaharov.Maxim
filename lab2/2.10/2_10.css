@@ -1,0 +1,13 @@
+.first {
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.second {
+    background-color: bisque;
+    margin-top: 20px;
+    width: 100%;
+}

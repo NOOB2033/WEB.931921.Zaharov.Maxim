@@ -1,0 +1,45 @@
+.text {
+    background-color: darkgrey;
+}
+
+ul {
+    background-color: bisque;
+    width: 550px;
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    margin-top: 0;
+}
+
+.b {
+    display: flex;
+    background-color: aqua;
+    border: 1px solid green;
+}
+
+footer {
+    background-color: limegreen;
+    position: absolute;
+    bottom: 0;
+    min-height: 50px;
+    max-height: 50px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: flex;
+        height: 10px;
+        width: auto;
+        margin-top: 15px;
+    }
+    li {
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .b {
+        flex-direction: column;
+    }
+}

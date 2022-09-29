@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+.a {
+    position: static;
+    background-color: blueviolet;
+    width: 150px;
+    height: 100px;
+}
+
+.b {
+    position: relative;
+    background-color: darkred;
+    width: 150px;
+    height: 100px;
+}
+
+.c {
+    position: relative;
+    background-color: peru;
+    width: 150px;
+    height: 100px;
+    left: 25px;
+    bottom: 25px;
+}
+
+.d {
+    position: relative;
+    background-color: indianred;
+    width: 500px;
+    height: 400px;
+}
+
+.e {
+    position: absolute;
+    background-color: indigo;
+    width: 300px;
+    height: 200px;
+    bottom: 360px;
+    left: 200px;
+}
+
+.f {
+    position: fixed;
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    bottom: 0px;
+}

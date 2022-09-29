@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    line-height: 25px;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    background-color: #EAEAEA;
+    height: 100px;
+    font-size: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+aside {
+    background-color: #C8FC98;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    height: 100%;
+    float: left;
+    width: 200px;
+}
+
+span {
+    color: red;
+    font-style: italic;
+}
+
+div {
+    padding-left: 220px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+}
+
+a {
+    color: yellow;
+}
