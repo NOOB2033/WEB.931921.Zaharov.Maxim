@@ -41,6 +41,7 @@ ul {
 
 li {
     margin-bottom: 20px;
+    width: 200px;
 }
 
 li:hover {
