@@ -1,6 +1,6 @@
 function squares() {
 	for (i = 0; i < document.querySelector('.in').value; ++i)  {
-		let square = document.createElement('div');
+        let square = document.createElement('div');
         square.className = 'square';
         square.style.border = '1px solid black';
 
