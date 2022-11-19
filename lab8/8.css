@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.Element {
+    display: flex;
+}
+
+.None {
+    display: none;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+button {
+    border: 1px solid gray;
+}
