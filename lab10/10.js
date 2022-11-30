@@ -36,7 +36,7 @@ function OnUp() {
     }
 }
 
-var animal = 1
+var animal = 1;
 
 function Focus() {
     if (animal == 1) {
