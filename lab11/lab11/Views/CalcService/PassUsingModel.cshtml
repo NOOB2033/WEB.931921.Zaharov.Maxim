@@ -1,0 +1,22 @@
+﻿@using lab11.Models
+@model CalcModel
+
+<h1>PassUsingModel</h1>
+<div class="Calculation">
+    <b>
+        Rand Value First: @Model.firstValue<br>
+        Rand Value Second: @Model.secondValue<br>
+    </b>
+
+    <b>Sum :</b><br>
+    @Model.firstValue + @Model.secondValue = @Model.sum<br>
+
+    <b>Dif :</b><br>
+    @Model.firstValue - @Model.secondValue = @Model.dif<br>
+
+    <b>Mul :</b><br>
+    @Model.firstValue * @Model.secondValue = @Model.mul<br>
+
+    <b>Div :</b><br>
+    @Model.firstValue / @Model.secondValue = @Model.div<br>
+</div>

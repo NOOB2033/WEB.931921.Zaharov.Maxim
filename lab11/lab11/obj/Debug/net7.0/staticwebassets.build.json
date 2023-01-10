@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "TzUR+UxKvCB1llTP6zfkSu3XUjb7zsjnigL2yS4sKII=",
+  "Source": "lab11",
+  "BasePath": "_content/lab11",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "lab11\\wwwroot",
+      "Source": "lab11",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\lab11\\lab11\\wwwroot\\",
+      "BasePath": "_content/lab11",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\lab11\\lab11\\wwwroot\\favicon.ico",
+      "SourceId": "lab11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\lab11\\lab11\\wwwroot\\",
+      "BasePath": "_content/lab11",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\lab11\\lab11\\wwwroot\\site.css",
+      "SourceId": "lab11",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\lab11\\lab11\\wwwroot\\",
+      "BasePath": "_content/lab11",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    }
+  ]
+}

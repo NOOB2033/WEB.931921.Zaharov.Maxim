@@ -1,0 +1,24 @@
+﻿@using lab11.Models
+@{
+    var calcModel = ViewData["CalcModel"] as CalcModel;
+}
+
+<h1>PassUsingViewData</h1>
+<div class="Calculation">
+    <b>
+        Rand Value First: @calcModel.firstValue<br>
+        Rand Value Second: @calcModel.secondValue<br>
+    </b>
+
+    <b>Sum :</b><br>
+    @calcModel.firstValue + @calcModel.secondValue = @calcModel.sum<br>
+
+    <b>Dif :</b><br>
+    @calcModel.firstValue - @calcModel.secondValue = @calcModel.dif<br>
+
+    <b>Mul :</b><br>
+    @calcModel.firstValue * @calcModel.secondValue = @calcModel.mul<br>
+
+    <b>Div :</b><br>
+    @calcModel.firstValue / @calcModel.secondValue = @calcModel.div<br>
+</div>
